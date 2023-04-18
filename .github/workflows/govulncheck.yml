@@ -1,0 +1,9 @@
+on: [push]
+
+jobs:
+  govulncheck_job:
+    runs-on: ubuntu-latest
+    name: A job to run govulncheck
+    steps:
+      - id: govulncheck
+        uses: bkessler-go/prototype-govulncheck-action@v1
