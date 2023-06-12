@@ -11,6 +11,7 @@ import (
 )
 
 func main() {
+	//test
 	tf := unicode.BOMOverride(transform.Nop)
 	src := []byte("hello, world")
 	dst := make([]byte, len(src))
